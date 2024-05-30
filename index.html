@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+</head>
+<body> 
+    <header>
+      <nav>
+          <a href="#inicio">Inicio</a>
+          <a href="#nosotros">Sobre nosotros</a>
+          <a href="#productos">Nuestros productos</a>
+          <a href="#Redes">Redes Sociales</a>
+      </nav>
+    </header>
+
+    <div>
+        <section class="hero">
+            <div class="hero_content">
+              <h1 class="hero_title">MIDNIGHT CLOSET</h1>
+              <p class="hero_text"> “Déjate envolver por la magia de la moda alternativa y descubre tu propio estilo en el armario de medianoche."
+              </p>
+            </div>
+        </section>
+    </div>
+
+    <div>
+      <section id="inicio">
+        <h2>Bienvenido a MIDNIGHT CLOSET</h2>
+        <div id="parrafo">
+          <p>
+            Midnight Closet es un refugio para aquellos que buscan prendas que desafíen lo convencional. 
+            <br>Creemos que la moda es una forma de expresión personal y poderosa; por este motivo nuestro objetivo es proporcionarte ropa de alta calidad que te permita expresar tu estilo único.<br>¡Explora Midnight Closet hoy y descubre cómo podemos transformar tu guardarropa con nuestras piezas cuidadosamente seleccionadas!
+          </p>
+        </div>
+        <button onclick='muestra_oculta("parrafo")' class="btn btn-primary">↓</button>
+      </section>
+    </div>
+    
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/4.png" class="d-block w-100" alt="Vestido negro">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/8.png" class="d-block w-100" alt="Corset">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/13.png" class="d-block w-100" alt="Zapatos">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/10.png" class="d-block w-100" alt="Corset">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/15.png" class="d-block w-100" alt="Botas">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/9.png" class="d-block w-100" alt="Corset">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div>
+        <section id="nosotros">
+          <h2>Sobre nosotros</h2>
+          <div class="card-container">
+            <div class="card">
+              <img src="./img/modelo.png" alt="modelo">
+              </div>
+          </div>
+          <div id="parrafo-2">
+            <p>
+              Midnight Closet es una tienda dedicada a ofrecer ropa de alta calidad y diseño exclusivo. 
+              <br>¿Necesitas ayuda para encontrar el look perfecto para una ocasión especial o para actualizar tu guardarropa? Nuestro equipo de expertos en moda está aquí para ayudarte. 
+              <br> Nuestra misión es proporcionar a nuestros clientes una sección de prendas que les permitan expresar su estilo personal con confianza.
+            </p>
+          </div>
+          <button onclick='muestra_oculta("parrafo-2")' class="btn btn-primary">↓</button>
+        </section>
+      </div>
+
+      <div>
+        <section id="productos">
+          <h2>Nuestros Productos</h2>
+          <div class="card-container">
+            <div class="card">
+              <img src="./img/1.png" alt="Img1">
+              <h3>Pink-dress</h3>
+              <p>Precio $4.45</p>
+            </div>
+            <div class="card">
+              <img src="./img/2.png" alt="Img2">
+              <h3>Corset</h3>
+              <p>Precio $3.00</p>
+            </div>
+            <div class="card">
+              <img src="./img/3.png" alt="Img3">
+              <h3>Floral-dress</h3>
+              <p>Precio $4.00</p>
+            </div>
+            <div class="card">
+              <img src="./img/4.png" alt="Img4">
+              <h3>Dress-night</h3>
+              <p>Precio $5.10</p>
+            </div>
+            <div class="card">
+              <img src="./img/5.png" alt="Img5">
+              <h3>Sky-dress</h3>
+              <p>Precio $7.00</p>
+            </div>
+            <div class="card">
+              <img src="./img/6.png" alt="Img6">
+              <h3>Casual-dress</h3>
+              <p>Precio $6.20</p>
+            </div>
+            <div class="card">
+              <img src="./img/7.png" alt="Img7">
+              <h3>Corset</h3>
+              <p>Precio $6.50</p>
+            </div>
+            <div class="card">
+              <img src="./img/8.png" alt="Img8">
+              <h3>Black-corset</h3>
+              <p>Precio $7.10</p>
+            </div>
+            <div class="card">
+              <img src="./img/9.png" alt="Img9">
+              <h3>Black-corset</h3>
+              <p>Precio $8.00</p>
+            </div>
+            <div class="card">
+              <img src="./img/10.png" alt="Img10">
+              <h3>Nice-corset</h3>
+              <p>Precio $9.00</p>
+            </div>
+            <div class="card">
+              <img src="./img/11.png" alt="Img11">
+              <h3>Skirt</h3>
+              <p>Precio $3.25</p>
+            </div>
+            <div class="card">
+              <img src="./img/12.png" alt="Img12">
+              <h3>Dark-skirt</h3>
+              <p>Precio $4.50</p>
+            </div>
+            <div class="card">
+              <img src="./img/13.png" alt="Img13">
+              <h3>Cute-shoes</h3>
+              <p>Precio $10.50</p>
+            </div>
+            <div class="card">
+              <img src="./img/15.png" alt="Img15">
+              <h3>Dark-botes</h3>
+              <p>Precio $17.00</p>
+            </div>
+            <div class="card">
+              <img src="./img/14.png" alt="Img14">
+              <h3>Botes</h3>
+              <p>Precio $15.00</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+
+<footer>
+  <div id="Redes">
+    <p>© 2024 Midnight-Closet. Todos los derechos reservados.</p>
+    <p>Desarrollado por: Dilian Yanory Rodriguez</p>
+    <nav>
+      <a href="https://www.facebook.com/?locale=es_LA"><img src="./img/facebook.png" alt="logo-facebook"></a> |
+      <a href="https://www.instagram.com/"><img src="./img/instagram.png" alt="logo-instagram"></a> |
+      <a href="https://twitter.com/i/flow/login"><img src="./img/twiter.png" alt="logo-twiter"></a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
